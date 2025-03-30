@@ -9,7 +9,15 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+# Vue / Frontend ignore
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.local
+.env.*.local
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
